@@ -1,3 +1,6 @@
+import FutbolApp from '../images/Futbol_App.png';
+import ChatRoom from '../images/ChatRoom.png';
+
 export const Bio = {
   name: 'Lucas Sebastian Battelini',
   roles: ['Full Stack Developer', 'Programmer'],
@@ -158,7 +161,24 @@ export const education = [
   },
 ];
 
-export const projects = []
+export const projects = [
+  {
+    id: 0,
+    img: FutbolApp,
+    title: 'Futbol App',
+    desc: 'Aplicación web para seguir el fútbol en tiempo real, con estadísticas, resultados y más. Utilizo React, Node.js y MongoDB para crear una experiencia de usuario fluida y eficiente.',
+    link: 'https://futbol-app-frontend-omega.vercel.app/inicio',
+    category: 'web app'
+  },
+  {
+    id: 1,
+    img: ChatRoom,
+    title: 'Chat Room',
+    desc: 'Chat en tiempo real usando sockets. Ingresá tu nombre y chateá con cualquier persona conectada. Permite comunicación instantánea entre usuarios de todo el mundo.',
+    link: 'https://horn-cedar-leaf.glitch.me/',
+    category: 'web app'
+  }
+]
 
 export const TimeLineData = [
 { year: 2022, text: "Empecé mi viaje" },
