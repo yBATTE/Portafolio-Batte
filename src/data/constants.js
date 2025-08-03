@@ -3,10 +3,10 @@ import ChatRoom from '../images/ChatRoom.png';
 
 export const Bio = {
   name: 'Lucas Sebastian Battelini',
-  roles: ['Full Stack Developer', 'Programmer'],
+  roles: ['Desarrolador Backend', 'Programador'],
   description: '¡Hola! Soy Lucas Battelini, un apasionado desarrollador backend con experiencia en la creación de soluciones innovadoras en el ámbito tecnológico. En la actualidad, formo parte del talentoso equipo de desarrollo de Notimation, donde he contribuido significativamente al éxito de diversos proyectos clave. Actualmente estoy cursando mi tercer año de Ingeniería en Sistemas, complementando mi experiencia práctica en el desarrollo de software. Tengo un sólido dominio de diversas herramientas y tecnologías, como JavaScript, C++, .NET, MongoDB y MySQL, entre otras.Mi enfoque se centra en la excelencia técnica y la eficiencia operativa, siempre buscando superar desafíos y ofrecer soluciones de calidad que impulsen el éxito empresarial. Me caracterizo por mi capacidad para adaptarme rápidamente a nuevos entornos y tecnologías, lo que me convierte en un activo valioso para cualquier equipo de desarrollo.Estoy constantemente buscando oportunidades para seguir creciendo profesionalmente y contribuir con mi experiencia y creatividad al campo del desarrollo de software. ¡Estoy emocionado por explorar nuevas oportunidades y desafíos que me permitan seguir creciendo y aprendiendo en este apasionante mundo tecnológico!',
   github: 'https://github.com/yBATTE',
-  resume: 'https://drive.google.com/file/d/1A0q6pibfpxKwv-jhj4kL9SL0KdtG-eei/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1Ie8rWqDUdsliDn0QhHeX_TNH9tc23C8U/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/lucas-sebastian-battelini-920b51228/',
   twitter: 'https://x.com/LucasBatte_',
   insta: 'https://www.instagram.com/lucasbattelini/',

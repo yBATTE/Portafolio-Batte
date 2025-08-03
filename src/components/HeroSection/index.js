@@ -14,21 +14,21 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
+                        <Title> Me llamo <br /> {Bio.name}</Title>
                         <TextLoop>
-                            I am a
+                            Yo soy
                             <Span>
                                 <Typewriter
                                     options={{
                                         strings: Bio.roles,
-                                        autoStart: true,
+                                        autoStart: true,        
                                         loop: true,
                                     }}
-                                />
+                                />   
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <ResumeButton href={Bio.resume} target='display'>Ver Currículum</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
