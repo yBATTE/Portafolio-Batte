@@ -1,5 +1,5 @@
 import FutbolApp from '../images/Futbol_App.png';
-import ChatRoom from '../images/ChatRoom.png';
+import GrupoGen from '../images/GrupoGen.png'
 
 export const Bio = {
   name: 'Lucas Sebastian Battelini',
@@ -172,10 +172,10 @@ export const projects = [
   },
   {
     id: 1,
-    img: ChatRoom,
-    title: 'Chat Room',
-    desc: 'Chat en tiempo real usando sockets. Ingresá tu nombre y chateá con cualquier persona conectada. Permite comunicación instantánea entre usuarios de todo el mundo.',
-    link: 'https://horn-cedar-leaf.glitch.me/',
+    img: GrupoGen,
+    title: 'Grupo Gen Web',
+    desc: 'Sitio web corporativo para Grupo GEN, red de estaciones YPF con foco en innovación, servicio y sustentabilidad.',
+    link: 'https://grupogen.vercel.app/',
     category: 'web app'
   }
 ]
