@@ -1,5 +1,6 @@
 import FutbolApp from '../images/Futbol_App.png';
 import GrupoGen from '../images/GrupoGen.png'
+import TurnoApp from '../images/Turnos_App.png'
 
 export const Bio = {
   name: 'Lucas Sebastian Battelini',
@@ -176,6 +177,14 @@ export const projects = [
     title: 'Grupo Gen Web',
     desc: 'Sitio web corporativo para Grupo GEN, red de estaciones YPF con foco en innovación, servicio y sustentabilidad.',
     link: 'https://grupogen.vercel.app/',
+    category: 'web app'
+  },
+  {
+    id:2,
+    img: TurnoApp,
+    title: 'Turnos App',
+    desc: 'App de turnos simple: guarda reservas en MongoDB, las sincroniza con Google Calendar y registra cada turno en una planilla tipo Excel (Google Sheets) ordenada por fecha y hora.',
+    link:'https://ybatte.github.io/turnos_app_frontend/',
     category: 'web app'
   }
 ]
